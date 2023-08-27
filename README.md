@@ -14,10 +14,10 @@
 所有你的、我們的、你們的  
 日常和夜間事務，  
 都是
-<a href="https://twitter.com/kusazh">
+<a href="https://mastodon.social/@kusa">
   <img
-    src="https://img.shields.io/badge/@kusazh-1D9BF0?logo=twitter&logoColor=white"
-    alt="Twitter@kusazh"
+    src="https://img.shields.io/badge/@kusa@mastodon.social-6364FF?logo=mastodon&logoColor=white"
+    alt="kusa@mastodon"
     align="top"
   />
 </a>
