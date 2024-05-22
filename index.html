@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
   <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#FFFFFF">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@kusazh</title>
     <style type="text/css" media="screen">
       body {
         background-color: #f1f1f1;
+        margin: 0;
         font-family: sans-serif;
       }
 
-      .container {
+      article {
         margin: 70px auto 35px auto;
         width: 280px;
       }
@@ -27,15 +33,17 @@
       }
 
       .logo {
-        display: inline-block;
+        width: 32px;
+        height: 24.5px;
         padding-top: 14px;
+        opacity: 0.2;
       }
     </style>
   </head>
   <body>
-    <div class="container">
+    <article>
       <p>
-        我們是時代的孩子<br>這個時代是一個
+        我們是時代的孩子<br />這個時代是一個
         <a href="https://www.google.com/search?q=kusazh"
           ><img
             src="https://img.shields.io/badge/Search-kusazh-555?logo=google&logoColor=white&labelColor=4285F4"
@@ -44,7 +52,7 @@
         的時代
       </p>
       <p>
-        所有你的、我們的、你們的<br>日常和夜間事務，<br>都是
+        所有你的、我們的、你們的<br />日常和夜間事務，<br />都是
         <a href="https://mastodon.social/@kusa"
           ><img
             src="https://img.shields.io/badge/@kusa@mastodon.social-6364FF?logo=mastodon&logoColor=white"
@@ -53,19 +61,19 @@
         的事務。
       </p>
       <p>
-        不管你想不想要，<br>你的基因有
+        不管你想不想要，<br />你的基因有
         <a href="https://www.douban.com/people/kusazh/"
           ><img
             src="https://img.shields.io/badge/@kusazh-2D963D?logo=douban&logoColor=white"
             alt="Douban@kusazh"
         /></a>
-        的過去，<br>你的皮膚有
+        的過去，<br />你的皮膚有
         <a href="https://weibo.com/5839841273"
           ><img
             src="https://img.shields.io/badge/@kusazh-E6162D?logo=sina-weibo&logoColor=white"
             alt="Weibo@kusazh"
         /></a>
-        的色彩，<br>你的眼裡有
+        的色彩，<br />你的眼裡有
         <a href="https://www.instagram.com/kusazh/"
           ><img
             src="https://img.shields.io/badge/@kusazh-E4405F?logo=instagram&logoColor=white"
@@ -80,7 +88,7 @@
             src="https://img.shields.io/badge/@kusazh-26A5E4?logo=telegram&logoColor=white"
             alt="Telegram@kusazh"
         /></a>
-        的回音，<br>你的沉默，訴說著許多話語，<br>橫著看豎著看都是
+        的回音，<br />你的沉默，訴說著許多話語，<br />橫著看豎著看都是
         <a href="https://www.threads.net/@kusazh"
           ><img
             src="https://img.shields.io/badge/@kusazh-000000?logo=threads&logoColor=white"
@@ -90,7 +98,7 @@
       </p>
       <p>…………</p>
       <p>
-        在此同時人們橫死，<br>動物暴斃，<br>房屋燃燒，<br>就像在久遠以前<br>不那麼
+        在此同時人們橫死，<br />動物暴斃，<br />房屋燃燒，<br />就像在久遠以前<br />不那麼
         <img
           src="https://img.shields.io/badge/Email-w@kus․ai-darkgoldenrod"
           alt="Email: w@kus․ai"
@@ -98,16 +106,10 @@
         化的時代。
       </p>
       <p>
-        <a href="/" class="logo">
-          <img
-            width="32"
-            height="25"
-            title=""
-            alt=""
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAyCAYAAADsg90UAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOlSURBVHgB7ZpRUhNBEIb/ngWrLMoqbmA8geQxJKvZE+gNhBOoJyDcAE9guIGcgJSbNY/hBuIJTBWCSrLTdkeklALc2Z1ZsZLvgaWS2WH7n5l/enqhdJgxBPlxTMAEoAkZHFlrPxFHR3HcGuA/ZTwer5+dTRs5n3eNMQ+Z0WDmDf1OYm3Mr78EuB0aMPH+qjGDVqt1jDvMaDRqTPP8OcE8A9sNEK3f1r6gAH/cMhfjSbvdxx1BR/rk9HRrHjS463JvCQEubpQlw2T6Kwb7/2pWaOBfzr69hM1f/W2kb6K0AJcdXAgRt1u7qAkfgf+isgCXHYkQlrAbemmk6ahLZN/yhYlVxZsAlx0S+tPz89dJkkzgkZ/r/OsOgV/BIwaeka1ma3X13ljdGJ7Ismzj9PRs7Dt4xbsAik7PWW7Hw9HoBSqifVjLh76m/FUoTdOuJAdiJNG6TN+GSPJYImjIdxvwAZleWYNMs2xHnqUHD2iiZwgDtvgks/R4/mhkNfm7nkNZc9HJSRfGPCemZ+Jy5d22hAiVg2doRvvO5vlB/uDBIGk2r/UkKtrf+yzbMkw7DG6gDA4iVAteEjXYg3xtrX9T0H+0hiNVhGDQ6yedzb3b2qQfPsj+zntwhEDHzPl2HMcDt/tKIt7Rk1HdgStskpsOWOr2ljGGC6wHOPtGAu+hBKUFUA5lq1vN1aGLzwZNmKLIJFfTZ90289w6ub2O+jSiJKmQilfaBvUPT6ffm/Ik74re83OL5LdXP9fPXIJny/vTtfvNpOI5pNIM+B3XJfG7Hzive8ZuHLd78IA3ARRHESYrkWnqL7NZPi58qPEYvOJVAEVE2BMRXhZpq+cGvWr6XKS9BC9m1/aaDnsXQEmHw0Ppuguv0CDubCbwTJCzwCyKttWh4QntaxbRNgIQRAB1Zk1K4AlLvJsEqjoFEUDRjEzyg31URH0iZJElmABKHkU9zEvt5ZkaE7TUFlSA+bRl+wYl0dFPAhdcgwqgzGYzTXBKzYLQo68EF0Brg+IFB3CkjtFXggugEHMfjrA1lQ20CEESoeuQ6vNnuRRKd3Xf73Q2H6EGapkBcxjFR5R4gJqoTQDJ94+KtrVEzp5RFno/zD6iJqjoeZ95wkReX6zcxAo5FCFqQ47GhApVaAfq84A7ylIALDhLAbDgLAXAgrOiZWbUBdHTAv/FdSTPVF8miBpJ00zeG+DW9wZEpt9pt4IUQK9j6QFYcJYCYMFZCoAFZykAFpwftFKcH7uQ+SMAAAAASUVORK5CYII="
-          />
+        <a href="/">
+          <img class="logo" alt="Logo" src="../images/logo.svg" />
         </a>
       </p>
-    </div>
+    </article>
   </body>
 </html>
