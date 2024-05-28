@@ -84,8 +84,8 @@
 就像在久遠以前  
 不那麼
 <img
-  src="https://img.shields.io/badge/Email-w@kus․ai-darkgoldenrod"
-  alt="Email: w@kus․ai"
+  src="https://img.shields.io/badge/Email-kusa@kus․ai-darkgoldenrod"
+  alt="Email: kusa@kus․ai"
   align="top"
 />
 化的時代。  
