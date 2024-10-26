@@ -89,7 +89,3 @@
   align="top"
 />
 化的時代。  
-
-<br/>
-
-[![Written By Human Not By AI Badge](https://github.com/kusazh/kusazh/assets/52033954/43e48dc1-4f44-433a-92c6-faa528cc260b)](https://notbyai.fyi)
