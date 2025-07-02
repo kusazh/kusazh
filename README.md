@@ -36,7 +36,7 @@
 </a>
 的過去，  
 你的皮膚有
-<a href="https://weibo.com/5839841273">
+<a href="https://weibo.com/kusazh">
   <img
     src="https://img.shields.io/badge/@kusazh-E6162D?logo=sina-weibo&logoColor=white"
     alt="Weibo@kusazh"
