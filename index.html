@@ -1,115 +1,184 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-  <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-    <link rel="manifest" href="../site.webmanifest">
-    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#FFFFFF">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@kusazh</title>
-    <style type="text/css" media="screen">
-      body {
-        background-color: #f1f1f1;
-        margin: 0;
-        font-family: sans-serif;
-      }
 
-      article {
-        margin: 70px auto 35px auto;
-        width: 280px;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#FFFFFF">
+  <title>@kusazh</title>
+  <style type="text/css" media="screen">
+    body {
+      background-color: #f1f1f1;
+      margin: 0;
+      font-family: sans-serif;
+    }
 
-      p {
-        color: rgba(0, 0, 0, 0.5);
-        line-height: 1.75;
-        padding: 7px;
-        font-size: 14px;
-      }
+    section {
+      margin: 0 auto;
+      width: 280px;
+    }
 
-      img {
-        vertical-align: text-bottom;
-      }
+    section p:first-of-type {
+      margin-top: 0;
+      padding-top: 70px;
+    }
 
-      .logo {
-        width: 32px;
-        height: 24.5px;
-        padding-top: 14px;
-        opacity: 0.2;
-      }
-    </style>
-  </head>
-  <body>
-    <article>
-      <p>
-        我們是時代的孩子<br />這個時代是一個
-        <a href="https://www.google.com/search?q=kusazh"
-          ><img
-            src="https://img.shields.io/badge/Search-kusazh-555?logo=google&logoColor=white&labelColor=4285F4"
-            alt="Google Search: kusazh"
-        /></a>
-        的時代
-      </p>
-      <p>
-        所有你的、我們的、你們的<br />日常和夜間事務，<br />都是
-        <a href="https://mastodon.social/@kusa"
-          ><img
-            src="https://img.shields.io/badge/@kusa@mastodon.social-6364FF?logo=mastodon&logoColor=white"
-            alt="kusa@mastodon"
-        /></a>
-        的事務。
-      </p>
-      <p>
-        不管你想不想要，<br />你的基因有
-        <a href="https://www.douban.com/people/kusazh/"
-          ><img
-            src="https://img.shields.io/badge/@kusazh-2D963D?logo=douban&logoColor=white"
-            alt="Douban@kusazh"
-        /></a>
-        的過去，<br />你的皮膚有
-        <a href="https://weibo.com/kusazh"
-          ><img
-            src="https://img.shields.io/badge/@kusazh-E6162D?logo=sina-weibo&logoColor=white"
-            alt="Weibo@kusazh"
-        /></a>
-        的色彩，<br />你的眼裡有
-        <a href="https://www.instagram.com/kusazh/"
-          ><img
-            src="https://img.shields.io/badge/@kusazh-E4405F?logo=instagram&logoColor=white"
-            alt="Instagram@kusazh"
-        /></a>
-        的神情。
-      </p>
-      <p>
-        你說的話，有
-        <a href="https://t.me/kusazh"
-          ><img
-            src="https://img.shields.io/badge/@kusazh-26A5E4?logo=telegram&logoColor=white"
-            alt="Telegram@kusazh"
-        /></a>
-        的回音，<br />你的沉默，訴說著許多話語，<br />橫著看豎著看都是
-        <a href="https://www.threads.net/@kusazh"
-          ><img
-            src="https://img.shields.io/badge/@kusazh-000000?logo=threads&logoColor=white"
-            alt="Threads@kusazh"
-        /></a>
-        性的。
-      </p>
-      <p>…………</p>
-      <p>
-        在此同時人們橫死，<br />動物暴斃，<br />房屋燃燒，<br />就像在久遠以前<br />不那麼
-        <img
-          src="https://img.shields.io/badge/Email-kusa@kus․ai-darkgoldenrod"
-          alt="Email: kusa@kus․ai"
-        />
-        化的時代。
-      </p>
-      <p>
-        <a href="/">
-          <img class="logo" alt="Logo" src="../images/logo.svg" />
-        </a>
-      </p>
-    </article>
-  </body>
+    p {
+      color: rgba(0, 0, 0, 0.5);
+      line-height: 1.75;
+      padding: 7px;
+      font-size: 14px;
+    }
+
+    img {
+      vertical-align: text-bottom;
+    }
+
+    section,
+    body:has(section:target) section:first-of-type {
+      display: none;
+    }
+
+    section:target,
+    section:first-of-type,
+    body:has(section:first-of-type:target) section:first-of-type {
+      display: block;
+    }
+
+    .logo {
+      width: 32px;
+      height: 24.5px;
+      padding-top: 14px;
+      opacity: 0.2;
+    }
+
+    #en p {
+      white-space: nowrap;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="zh">
+    <p>
+      我們是時代的孩子<br />這個時代是一個
+      <a href="https://www.google.com/search?q=kusazh"><img
+          src="https://img.shields.io/badge/Search-kusazh-555?logo=google&logoColor=white&labelColor=4285F4"
+          alt="Google Search: kusazh" /></a>
+      的時代
+    </p>
+    <p>
+      所有你的、我們的、你們的<br />日常和夜間事務，<br />都是
+      <a href="https://mastodon.social/@kusa"><img
+          src="https://img.shields.io/badge/@kusa@mastodon.social-6364FF?logo=mastodon&logoColor=white"
+          alt="kusa@mastodon" /></a>
+      的事務。
+    </p>
+    <p>
+      不管你想不想要，<br />你的基因有
+      <a href="https://www.douban.com/people/kusazh/"><img
+          src="https://img.shields.io/badge/@kusazh-2D963D?logo=douban&logoColor=white" alt="Douban@kusazh" /></a>
+      的過去，<br />你的皮膚有
+      <a href="https://weibo.com/kusazh"><img
+          src="https://img.shields.io/badge/@kusazh-E6162D?logo=sina-weibo&logoColor=white" alt="Weibo@kusazh" /></a>
+      的色彩，<br />你的眼裡有
+      <a href="https://www.instagram.com/kusazh/"><img
+          src="https://img.shields.io/badge/@kusazh-E4405F?logo=instagram&logoColor=white" alt="Instagram@kusazh" /></a>
+      的神情。
+    </p>
+    <p>
+      你說的話，有
+      <a href="https://t.me/kusazh"><img src="https://img.shields.io/badge/@kusazh-26A5E4?logo=telegram&logoColor=white"
+          alt="Telegram@kusazh" /></a>
+      的回音，<br />你的沉默，訴說著許多話語，<br />橫著看豎著看都是
+      <a href="https://www.threads.net/@kusazh"><img
+          src="https://img.shields.io/badge/@kusazh-000000?logo=threads&logoColor=white" alt="Threads@kusazh" /></a>
+      性的。
+    </p>
+    <p>…………</p>
+    <p>
+      在此同時人們橫死，<br />動物暴斃，<br />房屋燃燒，<br />就像在久遠以前<br />不那麼
+      <img src="https://img.shields.io/badge/Email-kusa@kus․ai-darkgoldenrod" alt="Email: kusa@kus․ai" />
+      化的時代。
+    </p>
+    <p>
+      <a href="/">
+        <img class="logo" alt="Logo" src="../images/logo.svg" />
+      </a>
+    </p>
+  </section>
+  <section id="en">
+    <p>
+      We are children of our age,
+      <br />
+      it’s a
+      <a href="https://www.google.com/search?q=kusazh"><img
+          src="https://img.shields.io/badge/Search-kusazh-555?logo=google&logoColor=white&labelColor=4285F4"
+          alt="Google Search: kusazh" /></a> age
+    </p>
+    <p>
+      All day long, all through the night,
+      <br />
+      all affairs—yours, ours, theirs—
+      <br />
+      are
+      <a href="https://mastodon.social/@kusa"><img
+          src="https://img.shields.io/badge/@kusa@mastodon.social-6364FF?logo=mastodon&logoColor=white"
+          alt="kusa@mastodon" /></a> affairs.
+    </p>
+    <p>
+      Whether you like it or not,
+      <br />
+      your genes have a
+      <a href="https://www.douban.com/people/kusazh/"><img
+          src="https://img.shields.io/badge/@kusazh-2D963D?logo=douban&logoColor=white" alt="Douban@kusazh" /></a>
+      past,
+      <br />
+      your skin, a
+      <a href="https://weibo.com/kusazh"><img
+          src="https://img.shields.io/badge/@kusazh-E6162D?logo=sina-weibo&logoColor=white" alt="Weibo@kusazh" /></a>
+      cast,
+      <br />
+      your eyes, a
+      <a href="https://www.instagram.com/kusazh/"><img
+          src="https://img.shields.io/badge/@kusazh-E4405F?logo=instagram&logoColor=white" alt="Instagram@kusazh" /></a>
+      slant.
+    </p>
+    <p>
+      Whatever you say reverberates,
+      <br />
+      whatever you don’t say speaks for <a href="https://t.me/kusazh"><img
+          src="https://img.shields.io/badge/@kusazh-26A5E4?logo=telegram&logoColor=white" alt="Telegram@kusazh" /></a>.
+      <br />
+      So either way you’re talking
+      <a href="https://www.threads.net/@kusazh"><img
+          src="https://img.shields.io/badge/@kusazh-000000?logo=threads&logoColor=white" alt="Threads@kusazh" /></a>.
+    </p>
+    <p>…………</p>
+    <p>
+      Meanwhile, people perished,
+      <br />
+      animals died,
+      <br />
+      houses burned,
+      <br />
+      and the fields ran wild
+      <br />
+      just as in times immemorial
+      <br />
+      and less <img src="https://img.shields.io/badge/Email-kusa@kus․ai-darkgoldenrod" alt="Email: kusa@kus․ai" />.
+    </p>
+    <p>
+      <a href="/">
+        <img class="logo" alt="Logo" src="../images/logo.svg" />
+      </a>
+    </p>
+  </section>
+</body>
+
 </html>
